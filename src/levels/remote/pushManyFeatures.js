@@ -29,7 +29,7 @@ exports.level = {
     "es_ES": "¡Push Main!",
     "pt_BR": "Push Main!",
     "gl": "Empurra ó Main!",
-    "de_DE": "Push Main!",
+    "de_DE": "AWOO PUSH MAIN",
     "ja": "Push Main!",
     "fr_FR": "Maître du push !",
     "ru_RU": "Push Мастер!",

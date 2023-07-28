@@ -1,5 +1,14 @@
 // Each level is part of a "sequence;" levels within
 // a sequence proceed in the order listed here
+
+// To add levels:
+// 1. Create a new folder in src/levels.
+// 2. Add a new file in src/levels/<folder>.
+// 3. Define the level JSON in src/levels/<folder>/<file>.
+// 4. Add the level to src/levels/index.js in two places: first, directly under this in levelSequences, and second, under sequenceInfo.
+// ^ levelSequences represents the order of levels, while sequenceInfo corresponds to the name of the sequence. The order in sequenceInfo doesn't matter.
+
+
 exports.levelSequences = {
   intro: [
     require('./intro/commits').level,
@@ -13,6 +22,13 @@ exports.levelSequences = {
     require('./rampup/relativeRefs2').level,
     require('./rampup/reversingChanges').level
   ],
+
+  lenneTech: [
+  require('./lenneTech/Start').level,
+  require('./lenneTech/Start2').level,
+  require('./lenneTech/Start3').level,
+  require('./lenneTech/Start4').level
+],
   move: [
     require('./rampup/cherryPick').level,
     require('./rampup/interactiveRebase').level
@@ -230,6 +246,16 @@ var sequenceInfo = exports.sequenceInfo = {
       'pl'   : 'A myślałeś, że bycie życzliwym dyktatorem byłoby fajne...',
       'it_IT': "E tu credevi che essere un dittatore benevolo fosse divertente...",
       'ta_IN': 'நீங்கள் ஒரு அக்கரை உள்ள சர்வாதிகாரியாக இருப்பது வேடிக்கையாக இருக்கும் என்று நினைத்தீர்களா...'
+    }
+  },
+  lenneTech: {
+    displayName: {
+      'en_US': 'LenneTech internals',
+      'de_DE': 'LenneTech Intern'
+    },
+    about: {
+      'en_US': 'Learn how LenneTech\'s Git-Flow works internally',
+      'de_DE': 'Lerne wie der LenneTech Git-Flow intern funktioniert'
     }
   },
   move: {

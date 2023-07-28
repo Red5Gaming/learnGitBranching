@@ -312,55 +312,22 @@ exports.dialog = {
     type: 'ModalAlert',
     options: {
       markdowns: [
-        '## Willkommen bei Learn Git Branching!',
+        '# Willkommen bei LearnGitBranching!',
         '',
-        'Der Sinn dieser Anwendung ist, die umfangreichen und komplexen Zusammenhänge der Prozesse, die bei der Arbeit mit Git ablaufen, zu verdeutlichen. Ich hoffe du hast Spaß dabei und lernst vielleicht sogar etwas!',
+        'Der Sinn dieses Spieles ist es, dass du den internen Git-Workflow auf die probe stellen kannst den du aus den vorherigen Lektionen kennst!',
         '',
-        '# Demo!',
+        '## Du brauchst Hilfe?',
         '',
-        'Falls du die Demonstration noch nicht gesehen hast, schau sie dir hier an:',
+        'Falls du Hilfe brauchst, zögere nicht einen Mentor mit deinem Problem anzuschreiben!',
         '',
-        '[https://pcottle.github.io/learnGitBranching/?locale=de_DE&demo](https://pcottle.github.io/learnGitBranching/?locale=de_DE&demo)',
+        'Alternativ findest du unten rechts wenn du auf das Fragezeichen klickst eine Liste mit allen Befehlen die dir zur Verfügung stehen.',
         '',
-        'Genervt von diesem Fenster? Häng `NODEMO` an die URL um es los zu werden, so wie hier:',
-        '',
-        '[https://pcottle.github.io/learnGitBranching/?locale=de_DE&NODEMO](https://pcottle.github.io/learnGitBranching/?locale=de_DE&NODEMO)'
+        '## Disclaimer',
+        'Dieses Spiel ist nicht von uns noch unser Eigentum, es wurde von [pcottle](https://github.com/pcottle/learnGitBranching) entwickelt.'
       ]
     }
-  }, {
-    type: 'ModalAlert',
-    options: {
-      markdowns: [
-        '## Git-Kommandos',
-        '',
-        'Dir steht eine große Zahl von Git-Befehlen im Sandkasten-Modus zur Verfügung. Unter anderem',
-        '',
-        ' * commit',
-        ' * branch',
-        ' * checkout',
-        ' * cherry-pick',
-        ' * reset',
-        ' * revert',
-        ' * rebase',
-        ' * merge'
-      ]
-    }
-  }, {
-    type: 'ModalAlert',
-    options: {
-      markdowns: [
-        '## Teilen macht Spaß!',
-        '',
-        'Teile diese Git-Bäume mit deinen Freunden mittels `export tree` und `import tree`.',
-        '',
-        'Hast du Wissenswertes zu Git zu vermitteln? Versuch einen Level mit `build level` zu bauen oder probier den Level eines Freundes mit `import level` aus.',
-        '',
-        'Um alle Kommandos zu sehen, gib `show commands` ein. Darunter gibt\'s kleine Schätze wie `undo` und `reset`.',
-        '',
-        'Für\'s Erste lass uns mit `levels` anfangen ...'
-      ]
-    }
-  }],
+  }
+ ],
   'ja': [{
     type: 'ModalAlert',
     options: {
